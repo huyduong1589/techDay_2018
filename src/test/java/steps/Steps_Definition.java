@@ -8,6 +8,7 @@ import common.functions.DriverFactory;
 import common.functions.ReadExcel;
 import common.functions.WebSupport;
 import cucumber.api.PendingException;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -42,7 +43,11 @@ public class Steps_Definition {
 	public void i_should_login_successfully() throws Throwable {
 		Thread.sleep(5000);
 		Assert.assertTrue(webSupport.verifyElement("//h1[text()='Manage your account']"));
-
+		
+	}
+	@After
+	public void cleanUp(){
+		driver.quit();
 	}
 
 }
