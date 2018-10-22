@@ -6,7 +6,7 @@
 	<test name="demo suite">
 		<parameter name="waitTime" value="20"/>
 		<classes>
-			<class name= "demo.TC001"></class>
+			<class name= "runners.TES_1"></class>
 		</classes>
 	</test>
 </suite>

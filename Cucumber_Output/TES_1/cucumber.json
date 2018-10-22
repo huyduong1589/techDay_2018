@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "login with valid credential",
+        "description": "",
+        "id": ";login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10350751619,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open browser and navigate to the website.",
+            "match": {
+              "location": "Steps_Definition.i_open_browser_and_navigate_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2475626085,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide a valid credential of testcase \"TES_1\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TES_1",
+                  "offset": 42
+                }
+              ],
+              "location": "Steps_Definition.i_provide_a_valid_credential_of_testcase(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236502448,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Submit button.",
+            "match": {
+              "location": "Steps_Definition.i_click_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9451748381,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should login successfully.",
+            "match": {
+              "location": "Steps_Definition.i_should_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TES-1"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/TES_1.feature"
+  }
+]

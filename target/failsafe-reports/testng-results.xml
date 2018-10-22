@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo suite" duration-ms="25410" started-at="2018-10-22T10:56:08Z" finished-at="2018-10-22T10:56:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTestsEdit.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TES_1$Test@34b7bfc0]" name="feature" class="common.functions.AbstractTestNGCucumberTestsEdit"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="demo suite" duration-ms="25410" started-at="2018-10-22T10:56:08Z" finished-at="2018-10-22T10:56:33Z">
+      <class name="runners.TES_1$Test">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TES_1$Test@34b7bfc0]" name="setUpClass" is-config="true" duration-ms="292" started-at="2018-10-22T10:56:08Z" finished-at="2018-10-22T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TES_1$Test@34b7bfc0]" name="feature" duration-ms="22556" started-at="2018-10-22T10:56:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-22T10:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TES_1$Test@34b7bfc0]" name="tearDownClass" is-config="true" duration-ms="2451" started-at="2018-10-22T10:56:31Z" finished-at="2018-10-22T10:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TES_1$Test -->
+    </test> <!-- demo suite -->
+  </suite> <!-- demo suite -->
+</testng-results>
